@@ -1,0 +1,48 @@
+.table{
+    background-color: black;
+    width:5%;
+    height: 500px;
+    top:0px;
+    position: absolute;
+    padding:15px;
+    
+}
+i{
+    font-size: xx-large;
+    color: white;
+    height: 70px;
+    
+}
+i:hover{
+    color: green;
+}
+@media screen and (max-width: 600px) {
+     .table{
+        width:2%;
+        height: 300px;
+        top:0px;
+        position: absolute;
+        padding:7px;
+
+    }
+    i{
+     font-size:small;
+    color: white;
+    height: 70px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .table{
+       width:4%;
+       height: 400px;
+       top:0px;
+       position: absolute;
+       padding:7px;
+   }
+   i{
+       font-size:x-large;
+   color: white;
+   height: 70px;
+   }
+ }

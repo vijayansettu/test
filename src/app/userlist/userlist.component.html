@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Userlist</h1>
+    <table class="table table-hover" border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Color</th>
+            <th>pantone_value</th>
+        </tr>
+        <tr *ngFor="let emp of employee.data">
+            <td>{{emp.id}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.year}}</td>
+            <td>{{emp.color}}</td>
+            <td>{{emp.pantone_value}}</td>
+        </tr>
+    </table>
+</div>
